@@ -130,3 +130,4 @@ with st.expander("Examples"):
         if st.button(s, key=f"ex_id_{s}"):
             st.session_state.input_text = s
             st.experimental_rerun()
+
